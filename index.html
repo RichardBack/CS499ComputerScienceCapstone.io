@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,70 +7,78 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
         }
-        .section {
-            margin: 20px 0;
-        }
-        .images-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .image-box {
-            margin: 10px;
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
             text-align: center;
         }
-        .image-box img {
-            width: 300px;  /* Set image width to 300px */
-            height: auto;  /* Maintain aspect ratio */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a neat effect */
+        h1 {
+            margin: 0;
+        }
+        .section {
+            margin: 20px;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .content {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .list li {
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to the Pet Hotel</h1>
+    <header>
+        <h1>Welcome to the Pet Hotel</h1>
+    </header>
 
     <div class="section">
         <h2>Cats</h2>
-        <div class="images-container">
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel1.png" alt="A beautiful cat in a comfy setting">
-                <p>Our lovely feline friend!</p>
-            </div>
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel2.png" alt="A gray cat enjoying its stay">
-                <p>All cats deserve comfort.</p>
-            </div>
+        <div class="content">
+            <p>We provide a comfortable and relaxing environment for our feline guests. Our pet hotel ensures that each cat gets the attention and care it deserves.</p>
+            <ul class="list">
+                <li>Cozy beds and spaces for your cat to relax.</li>
+                <li>High-quality food and water, available all day.</li>
+                <li>Daily playtime and attention from our staff.</li>
+            </ul>
         </div>
     </div>
 
     <div class="section">
         <h2>Dogs</h2>
-        <div class="images-container">
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel6.png" alt="A happy dog ready to play">
-                <p>Dogs having fun in our kennel.</p>
-            </div>
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel3.webp" alt="Dog relaxing in the pet hotel">
-                <p>Relaxing moments for dogs.</p>
-            </div>
+        <div class="content">
+            <p>Our dog guests enjoy spacious kennels and lots of outdoor playtime. Your dog will feel right at home in our pet hotel.</p>
+            <ul class="list">
+                <li>Spacious kennels for comfort and relaxation.</li>
+                <li>Play areas for dogs to interact and exercise.</li>
+                <li>Experienced staff to care for and entertain your dog.</li>
+            </ul>
         </div>
     </div>
 
     <div class="section">
         <h2>Our Pet Kennels</h2>
-        <div class="images-container">
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel4.webp" alt="Clean and spacious dog kennel">
-                <p>Spacious, clean kennels.</p>
-            </div>
-            <div class="image-box">
-                <img src="https://github.com/username/repository/raw/main/images/DogKennel5.webp" alt="Dogs staying in the kennel">
-                <p>Cozy spots for your pet.</p>
-            </div>
+        <div class="content">
+            <p>Our pet kennels are designed for both comfort and safety. Each kennel is thoroughly cleaned and maintained regularly.</p>
+            <ul class="list">
+                <li>Clean and spacious kennels for every pet.</li>
+                <li>Secure fencing and gates for safety.</li>
+                <li>Proper ventilation and temperature control for a comfortable stay.</li>
+            </ul>
         </div>
     </div>
 
